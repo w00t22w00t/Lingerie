@@ -1,0 +1,31 @@
+@font-face {
+	font-family: "TT Travels-Light";
+	src: url("../fonts/TT_Travel/TTTravels-Light.woff") format("woff"),
+			 url("../fonts/TT_Travel/TTTravels-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "TT Travels-Black";
+	src: url("../fonts/TT_Travel/TTTravels-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "TT Travels-Medium";
+	src: url("../fonts/TT_Travel/TTTravels-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Schnyder Cond XL Demi";
+	src: url("../fonts/Schnyder_X_Condensed/Schnyder_X_Cond_L_Demi.otf");
+	src: url("../fonts/Schnyder_X_Condensed/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Schnyder_X_Condensed/Schnyder_X_Cond_L_Demi.woff") format("woff"),
+			 url("../fonts/Schnyder_X_Condensed/Schnyder_X_Cond_L_Demi.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

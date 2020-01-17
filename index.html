@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<title>LINGERIE</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="logo wow fadeInLeft" data-wow-duration="2s">
+				<p>Logo Logo</p>
+			</div>
+			<div class="main-menu wow fadeInRight" data-wow-duration="2s">
+				<nav>
+					<ul class="menu">
+						<li class="Trigram">&#9776;</li>
+						<li class="elem"><a href="#">Commercial</a></li>
+						<li class="elem"><a href="#">Editoral</a></li>
+						<li class="elem"><a href="#">Reportage</a></li>
+						<li class="elem"><a href="#">Meet Me</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="slider container">
+				<ul id="scene">
+					<li class="layer image-left" data-depth="2">
+						<img class="mySlides" src="images/image1.png" alt="wooman">
+					</li>
+					<li class="layer image-center" data-depth="1">
+						<img id="slider" class="mySlides" src="images/image2.png" alt="wooman">
+					</li>
+					<li class="layer image-right" data-depth="-1">
+						<img class="mySlides" src="images/image3.png" alt="wooman">
+					</li>
+				</ul>	
+			</div>
+			<div class="inscription inscription-center wow bounce" data-wow-duration="2s">
+				ink lingerie
+			</div>
+			<div class="inscription inscription-left wow fadeInLeft" data-wow-duration="2s">
+				ink lingerie
+			</div>
+			<div class="inscription inscription-right wow fadeInRight" data-wow-duration="2s">
+				ink lingerie
+			</div>
+		</main>
+		<footer>
+			<div class="social-networks wow fadeInUp" data-wow-duration="2s">
+				<div><p>Inst </p></div>
+				<div class="black-line"></div>
+				<div><p>Fb</p></div>
+			</div>
+		</footer>
+		<script src="js/script.js"></script>
+		<script src="js/parallax.js"></script>
+		<script>
+			var scene = document.getElementById('scene');
+			var parallax = new Parallax(scene);
+		</script>
+	</div>
+</body>
+</html>
